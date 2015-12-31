@@ -5,7 +5,6 @@
 
 ## TCP_CHAT_CLIENT
 * execute : go run tcp_client.go  
-### usage
 * [G] msg : global chat
 * [R] msg : room chat
 * [W] target_nickname msg : whisper
