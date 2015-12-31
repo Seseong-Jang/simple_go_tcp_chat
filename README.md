@@ -10,5 +10,5 @@
 * [W] target_nickname msg : whisper
 
 ## Need Implements
-* room (enter, change, balancing room per 100 user) - completed
-* whisper - completed
+~~* room (enter, change, balancing room per 100 user) - completed~~
+~~* whisper - completed~~
