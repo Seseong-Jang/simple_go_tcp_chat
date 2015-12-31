@@ -67,7 +67,7 @@ func handleClient(client *Client) {
 	for {
 		select {
 		case msg := <-client.read:
-			if strings.Contains(msg, "[B]") {
+			if strings.HasPrefix(msg, "[B]") {
 				sendToAllClients(client.name, msg)
 			} else {
 				sendToClient(client, client.name, msg)
