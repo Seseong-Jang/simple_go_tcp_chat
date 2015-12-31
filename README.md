@@ -5,7 +5,11 @@
 
 ## TCP_CHAT_CLIENT
 * execute : go run tcp_client.go  
+### usage
+* [G] msg : global chat
+* [R] msg : room chat
+* [W] target_nickname msg : whisper
 
 ## Need Implements
-* room (enter, change, balancing room per 100 user)
-* whisper
+* room (enter, change, balancing room per 100 user) - completed
+* whisper - completed
